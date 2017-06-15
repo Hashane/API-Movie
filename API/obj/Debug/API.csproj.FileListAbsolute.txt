@@ -1,0 +1,128 @@
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\ApplicationInsights.config
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\csc.exe
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\vbc.exe
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\VBCSCompiler.exe
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\API.dll.config
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\API.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\API.pdb
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.Web.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.ApplicationInsights.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Newtonsoft.Json.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Net.Http.Formatting.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Web.Http.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Web.Http.WebHost.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.Web.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.ApplicationInsights.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\Newtonsoft.Json.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Net.Http.Formatting.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Web.Http.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\bin\System.Web.Http.WebHost.xml
+c:\users\jude\documents\visual studio 2015\Projects\API\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+c:\users\jude\documents\visual studio 2015\Projects\API\API\obj\Debug\API.dll
+c:\users\jude\documents\visual studio 2015\Projects\API\API\obj\Debug\API.pdb
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\EntityFramework.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\MySql.Data.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\MySql.Web.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\Simple.Data.Ado.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\Simple.Data.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\Simple.Data.Mysql.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\EntityFramework.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Helpers.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Mvc.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Razor.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Helpers.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Mvc.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.Razor.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jude\Documents\Visual Studio 2015\Projects\API\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jude\Music\API\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\Jude\Music\API\API\obj\Debug\API.dll
+C:\Users\Jude\Music\API\API\obj\Debug\API.pdb
+C:\Users\Jude\Music\API\API\bin\ApplicationInsights.config
+C:\Users\Jude\Music\API\API\bin\roslyn\csc.exe
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jude\Music\API\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jude\Music\API\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jude\Music\API\API\bin\roslyn\vbc.exe
+C:\Users\Jude\Music\API\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jude\Music\API\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jude\Music\API\API\bin\API.dll.config
+C:\Users\Jude\Music\API\API\bin\API.dll
+C:\Users\Jude\Music\API\API\bin\API.pdb
+C:\Users\Jude\Music\API\API\bin\EntityFramework.dll
+C:\Users\Jude\Music\API\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.Web.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jude\Music\API\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jude\Music\API\API\bin\MySql.Data.dll
+C:\Users\Jude\Music\API\API\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Jude\Music\API\API\bin\MySql.Web.dll
+C:\Users\Jude\Music\API\API\bin\Newtonsoft.Json.dll
+C:\Users\Jude\Music\API\API\bin\Simple.Data.Ado.dll
+C:\Users\Jude\Music\API\API\bin\Simple.Data.dll
+C:\Users\Jude\Music\API\API\bin\Simple.Data.Mysql.dll
+C:\Users\Jude\Music\API\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.Helpers.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.Http.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.Mvc.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.Razor.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.dll
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jude\Music\API\API\bin\EntityFramework.xml
+C:\Users\Jude\Music\API\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.Web.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jude\Music\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.Helpers.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.Mvc.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.Razor.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jude\Music\API\API\bin\Newtonsoft.Json.xml
+C:\Users\Jude\Music\API\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.Http.xml
+C:\Users\Jude\Music\API\API\bin\System.Web.Http.WebHost.xml

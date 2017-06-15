@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="apidbModelStoreContainer" CdmEntityContainer="apidbEntities">
+    <EntitySetMapping Name="accounts">
+      <EntityTypeMapping TypeName="apidbModel.account">
+        <MappingFragment StoreEntitySet="account">
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="items">
+      <EntityTypeMapping TypeName="apidbModel.item">
+        <MappingFragment StoreEntitySet="items">
+          <ScalarProperty Name="SideEffects" ColumnName="SideEffects" />
+          <ScalarProperty Name="Warnings" ColumnName="Warnings" />
+          <ScalarProperty Name="Condition" ColumnName="Condition" />
+          <ScalarProperty Name="Dosage" ColumnName="Dosage" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

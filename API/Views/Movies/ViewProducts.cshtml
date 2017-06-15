@@ -1,0 +1,269 @@
+﻿ @{
+    Layout = null;
+ 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style>td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}</style>
+</head> 
+<body> <body background="https://assets.vg247.com/current//2015/01/hitman-absolution-new.jpeg">
+
+    <header>MOVIE OUTLET</header>
+    <h1>ALL the NEWEST MOVIES</h1>
+    <div id="div1">
+        <table id="people" border="1">
+            <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Description</th>
+
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <span id="p1"></span>
+
+
+    </br><input type="text" id="txtDr" />
+
+
+    <button id="oneDr" onclick="distinguish()">Search MOVIES by ID or Category</button>
+
+
+    <span id="status" style="align-self:center"></span>
+    
+    <h1>New MOvies</h1>
+    <form id="saveContactForm" method="post">
+        <h3>MOVIES THE NEWEST</h3>
+        <p>
+            <label for="contactId"> Movie Id:</label>
+            <input type="text" name="Id" />
+        </p>
+        <p>
+            <label for="contactName">Movie Name:</label>
+            <input type="text" name="Name" />
+        </p>
+        <p>
+            <label for="category">Category:</label>
+            <input type="text" name="Category" /><br />
+
+        </p>
+        <p>
+            <label for="Price">
+                Price of Movie<label>
+                <input type="text" name="Price" /><br />
+
+        </p>
+
+        <p>
+            <label for="Price">Description:</label>
+            <input type="text" name="Description" /><br />
+
+        </p>
+
+
+        <input type="submit" onclick="post()" id="saveContact" value="Save" />
+    </form>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+
+        function GetAll() {
+            jQuery.support.cors = true;
+            $.ajax({
+                url: 'http://localhost:60055/api/Movies/',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {      if(data.length < 20) {document.getElementById("status").innerHTML = data;}
+                    var peopleHTML = "";
+                    var json = $.parseJSON(data); 
+                    $(json).each(function (i, val) {
+                        peopleHTML += "<tr>";
+                        $.each(val, function (k, v) {
+
+                            peopleHTML += "<td>" + v + "</td>";
+
+                        });
+                    }); peopleHTML += "</tr>"; $("#people tbody").html(peopleHTML);
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            }); alert("Done");
+        }
+
+        function GetMovieID() {
+            var Drid = $('#txtDr').val();
+            jQuery.support.cors = true;
+            $.ajax({
+                url: 'http://localhost:60055/api/Movies/' + Drid,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {     if(data.length < 20) {document.getElementById("status").innerHTML = data;}
+                    
+                    var json = $.parseJSON(data);
+                    $(json).each(function (i, val) {
+                       
+                        $.each(val, function (k, v) {
+
+                            alert(v);
+
+                        });
+                    }); 
+                }
+            }); alert("Done");
+            }
+
+
+        function GetByCat()
+        {
+            var DrCat = $('#txtDr').val();
+            jQuery.support.cors = true;
+            $.ajax({
+                url: 'http://localhost:60055/api/Movies/' + DrCat,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {  if(data.length < 20) {document.getElementById("status").innerHTML = data;}
+                    
+                    var json = $.parseJSON(data);
+                    $(json).each(function (i, val) {
+                        
+                        $.each(val, function (k, v) {
+
+                            alert(v);
+
+                        });
+                    }); 
+
+                }
+            }); alert("DOne");
+        }
+    
+</script>
+
+<script>
+    //var table = document.getElementsByTagName("table")[0];
+    //var tbody = table.getElementsByTagName("tbody")[0];
+    //var myJsonString = "";
+    //var data; var as = "";
+    //tbody.onclick = function (e) {
+    //    data = [];
+    //    e = e || window.event;
+        
+    //    var target = e.srcElement || e.target;
+    //    while (target && target.nodeName !== "TR") {
+    //        target = target.parentNode;
+    //        $(target).addClass('selected').siblings().removeClass('selected'); //highlighting
+    //    }
+    //    if (target) {
+    //        var cells = target.getElementsByTagName("td");
+    //        for (var i = 0; i < cells.length; i++) {
+    //            data.push(cells[i].innerHTML);
+                
+    //        }
+    //        document.getElementById("p1").innerHTML = data;
+    //    }
+        
+    //    var text = '{"ID":"' + data[0] + '","Name":"' + data[1] + '","Category":"' + data[2] + '","Price":"' + data[3] + '","Dosage":"' + data[4] + '","Condition":"' + data[5] + '","Warnings":"' + data[6] + '","SideEffects":"' + data[7] + '"}';
+    //    myJsonString = JSON.stringify(text);
+    //};
+        
+    //function fnselect()
+    //{
+    //    alert(myJsonString);
+    //    document.getElementById("p1").innerHTML = myJsonString;
+    //}
+   
+</script>
+
+
+<script>
+
+    //function update() {
+        
+    //    $.ajax({
+    //        url: 'http://localhost:60055/api/Movies/' + data[0],
+    //        type: "put",
+    //        contentType: "application/json; charset=utf-8",
+    //        data:$.parseJSON(myJsonString),
+    //        dataType: "json",
+    //        success: function (data) {
+    //            if (data.length < 20) { document.getElementById("status").innerHTML = data; }
+    //        }
+    //    });
+    //    document.getElementById("p1").innerHTML = myJsonString;
+    //    $(table).fadeOut();
+    //    $("#get").trigger('click');
+    //    $(table).fadeIn("slow");
+
+    //}
+
+    //$('#del').on('click', function () {
+
+    //    $.ajax({
+    //        url: 'http://localhost:60055/api/Movies/' + data[0],
+    //        type: 'DELETE',
+    //        success: function (data) {
+    //            $(table).fadeOut();
+    //            $("#get").trigger('click');
+    //            $(table).fadeIn("slow");
+    //            if (data.length < 20) { document.getElementById("status").innerHTML = data; }
+    //            else {
+    //                document.getElementById("p1").innerHTML = "Deleted";
+    //            }
+    //        }
+    //    });
+      
+    //});
+
+
+
+   
+
+    function post() {
+        $.ajax({
+            url: 'http://localhost:60055/api/Movies/',
+            type: "POST",
+           // contentType: "application/json; charset=utf-8",
+            data: $("#saveContactForm").serialize(),
+            dataType: "json",
+
+
+        }); alert("Pushed");
+    }
+
+
+
+    function distinguish() {
+        var drInput = $('#txtDr').val();
+        if (isNaN(drInput)) // this is the code I need to change
+        {
+            GetByCat();
+           // alert("Nigga");
+        }
+        else
+            GetMovieID();
+    }
+
+    $(document).ready(function () {
+       
+        GetAll();
+       
+    });
+
+</script>
+</html>
